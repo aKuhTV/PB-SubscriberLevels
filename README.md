@@ -32,7 +32,8 @@ For Caster and Admin:
 ## 📆 CHANGELOG  
 
 0.1 - Initial version  
-0.1.1 - Initial public release. Added support for name changes, bug fixes  
+0.1.1 - Initial public release. Added support for name changes, bug fixes 
+0.2 - Added feature to set the level of a user manually via command
 **English localization is planned for next release**  
   
 --------------  

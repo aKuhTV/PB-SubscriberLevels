@@ -39,8 +39,8 @@ For Caster and Admin:
   
 ## 💾 INSTALLATION  
    
-Place the *SubscriberLevels_0.x.js* inside *[Your Phantombot Folder]\scripts\custom*. If that folder doesn't exist, create it.  
-For upcoming 0.3 and up: Place the *custom-SubscriberLevels_0.x.js* inside *[Your Phantombot Folder]\scripts\lang\english (or whatever language your bot is set to)\custom*. If that folder doesn't exist, create it.
+- Place the *SubscriberLevels_0.x.js* inside *[Your Phantombot Folder]\scripts\custom*. If that folder doesn't exist, create it.  
+- For upcoming 0.3 and up: Place the *custom-SubscriberLevels_0.x.js* inside *[Your Phantombot Folder]\scripts\lang\english (or whatever language your bot is set to)\custom*. If that folder doesn't exist, create it.
   
 That's it, it's as easy as that! On the first startup the extension will automatically create all needed databases. The rest can be configured using the commands listed above.  
   

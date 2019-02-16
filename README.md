@@ -1,4 +1,4 @@
-# PB-SubscriberLevels
+# ⭐ PB-SubscriberLevels ⭐
 
 The SubscriberLevel Module is a highly customizable extension for Phantombot, that lets you set Levels, similar to Ranks, but based on the *total* amount of months a viewer has been subscribed to your channel. (Not the months in a row! This extension is built with Twitchs new sus system in mind.)
 You can either use this extension just as some kind of sub-age command, similar to followage, or optionally you can also set (funny) names for each level (sub-month) to engage people to resub. The module will *automagically* detect if you have set a level name and respond with the appropriate message. It will also detect if the user is actively subbed at the moment and if that's not the case the level will not be displayed (might be an option in the future tho, if requested).
@@ -8,7 +8,7 @@ Uses additional tables for user data and settings in the phantombot.db database,
   
 -------------  
   
-## COMMANDS
+## ❕ COMMANDS
 
 For everyone:  
 **!level** - *Lets a user check their current total Sub duration and optionally also the custom Resub-Level name.  Can be changed to a custom command using an alias in Phantombot. Available options: !level [username]*  
@@ -29,7 +29,7 @@ For Caster and Admin:
   
 --------------  
   
-## CHANGELOG  
+## 📆 CHANGELOG  
 
 0.1 - Initial version  
 0.1.1 - Initial public release. Added support for name changes, bug fixes  
@@ -37,7 +37,7 @@ For Caster and Admin:
   
 --------------  
   
-## INSTALLATION  
+## 💾 INSTALLATION  
    
 Place the ResubLevelChecker_0.x.js inside *[Your Phantombot Folder]\scripts\custom*. If that folder doesn't exist, create it.  
   

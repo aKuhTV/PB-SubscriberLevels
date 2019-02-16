@@ -1,6 +1,6 @@
 # ⭐ PB-SubscriberLevels ⭐
 
-The SubscriberLevel Module is a highly customizable extension for Phantombot, that lets you set Levels, similar to Ranks, but based on the *total* amount of months a viewer has been subscribed to your channel. (Not the months in a row! This extension is built with Twitchs new sus system in mind.)
+The SubscriberLevel Module is a highly customizable extension for Phantombot, that lets you set Levels, similar to Ranks, but based on the *total* amount of months a viewer has been subscribed to your channel. (Not the months in a row! This extension is built with Twitchs new sub system in mind.)
 You can either use this extension just as some kind of sub-age command, similar to followage, or optionally you can also set (funny) names for each level (sub-month) to engage people to resub. The module will *automagically* detect if you have set a level name and respond with the appropriate message. It will also detect if the user is actively subbed at the moment and if that's not the case the level will not be displayed (might be an option in the future tho, if requested).
 Another neat little feature: You can customize the emotes in the bot's responds, one emote for active subs, one for non-subs.
 

@@ -44,4 +44,4 @@ For Caster and Admin:
   
 That's it, it's as easy as that! On the first startup the extension will automatically create all needed databases. The rest can be configured using the commands listed above.  
   
-**Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub after installation, according to the cumulative months data that Twitch provides. If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences betwwen Twitchs Database and the Bots database.)**
+**Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub after installation, according to the cumulative months data that Twitch provides. If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences between Twitchs Database and the Bots database.)**

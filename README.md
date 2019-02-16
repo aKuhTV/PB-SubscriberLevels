@@ -34,7 +34,7 @@ For Caster and Admin:
 0.1 - Initial version  
 0.1.1 - Initial public release. Added support for name changes, bug fixes  
 0.2.1 - Added feature to set the level of a user manually via command  
-**English localization is planned for next release**  
+0.3 - Added full localization support and ENGLISH TRANSLATION. Fixed a bug, where the active-sub-check would not work as expected.
   
 --------------  
   

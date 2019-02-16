@@ -33,6 +33,7 @@ For Caster and Admin:
 
 0.1 - Initial version  
 0.1.1 - Initial public release. Added support for name changes, bug fixes  
+**English localization is planned for next release**  
   
 --------------  
   

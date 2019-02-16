@@ -33,3 +33,13 @@ For Caster and Admin:
 
 0.1 - Initial version  
 0.1.1 - Initial public release. Added support for name changes, bug fixes  
+  
+--------------  
+  
+## INSTALLATION  
+   
+Place the ResubLevelChecker_0.x.js inside *[Your Phantombot Folder]\scripts\custom*. If that folder doesn't exist, create it.  
+  
+That's it, it's as easy as that! On the first startup the extension will automatically create all needed databases. The rest can be configured using the commands listed above.  
+  
+**Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub after installation, according to the cumulative months data that Twitch provides. If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences betwwen Twitchs Database and the Bots database.)**

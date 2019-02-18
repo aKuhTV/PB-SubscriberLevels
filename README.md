@@ -23,7 +23,7 @@ For Caster and Admin:
 **!setsubemote [Twitch Emote]** - *Changes the emote that is displayed in !level responds, if the user is a sub. Default is "bleedPurple".* *  
 **!setsademote [Twitch Emote]** - *Changes the emote that is displayed in !level responds, if the user is not a sub. Default is "BibleThump".* *  
 **!setlevel [name] [n]** - *Sets the Level/amount of subbed months to given number "n". Be careful, only use this if the database is not in sync with the actual subscriber age on twitch!*  
-**!apisync [on|off|status]** - *Toggles synchronisation of Sub-months data with Twitchs API. Having this turned on can avoid async sub data between Twitchs database and the bot's database. Having this turned off (not recommended) the bot won't sync data with Twitch, but rather just increase the stored value by 1 upon a resub event. Default is "on". Note, that a users sub data is only synchronised on their RESUB event, not a normal sub event, due to limitations of the API.*  
+**!apisync [on|off|status]** - *Toggles synchronisation of Sub-months data with Twitchs API. Having this turned on can avoid async sub data between Twitchs database and the bot's database. Having this turned off (not recommended) the bot won't sync data with Twitch, but rather just increase the stored value by 1 upon a resub event. Default is "on". Note, that a users sub data is only synchronised on their RESUB or SUBGIFT event, not a normal sub event, due to limitations of the bots system.*  
   
 
 *Note, that the bot can only use emotes, that are available on the bot's account. (Global emotes and emotes from channels the bot's account is subscribed to)  
@@ -37,6 +37,11 @@ For Caster and Admin:
 0.2.1 - Added feature to set the level of a user manually via command  
 0.3 - Added full localization support and ENGLISH TRANSLATION. Fixed a bug, where the active-sub-check would not work as expected.  
 0.3.1 - Added feature to toggle synchronisation of sub-month data between Twitchs database and the bot's database. Translated console messages to English.   
+0.3.2_hotfix - bugfix  
+**0.3.3 - Added support for syncing cumulative months with Twitchs satabase on Sub-Gift events.
+Fixed an issue, where the apisync toggle wouldn't work if the user wasn't already listed in the database.**  
+  
+(Don't use versions before 0.3.3!)  
   
 --------------  
   
@@ -50,4 +55,4 @@ For Caster and Admin:
   
 That's it, it's as easy as that! On the first startup the extension will automatically create all needed databases. The rest can be configured using the commands listed above.  
   
-**Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub after installation, according to the cumulative months data that Twitch provides** (assuming !APIsync is turned on, which it is by default). **If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences between Twitchs Database and the Bots database.) So maybe wait a bit before making the chat command available for everyone**
+**Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub or subgift after installation, according to the cumulative months data that Twitch provides** (assuming !APIsync is turned on, which it is by default). **If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences between Twitchs Database and the Bots database.) So maybe wait a bit before making the chat command available for everyone**

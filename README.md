@@ -5,6 +5,8 @@ You can either use this extension just as some kind of sub-age command, similar 
 Another neat little feature: You can customize the emotes in the bot's responds, one emote for active subs, one for non-subs.
 
 Uses additional tables for user data and settings in the phantombot.db database, so all your important data is stored in one place for easier updating :)  
+
+*If you have further questions, feel free to contact me on Twitter @aKuhTV. If you should encounter any issues, please report them in the Issues tab here on Github.*
   
 -------------  
   
@@ -23,7 +25,7 @@ For Caster and Admin:
 **!setsubemote [Twitch Emote]** - *Changes the emote that is displayed in !level responds, if the user is a sub. Default is "bleedPurple".* *  
 **!setsademote [Twitch Emote]** - *Changes the emote that is displayed in !level responds, if the user is not a sub. Default is "BibleThump".* *  
 **!setlevel [name] [n]** - *Sets the Level/amount of subbed months to given number "n". Be careful, only use this if the database is not in sync with the actual subscriber age on twitch!*  
-**!apisync [on|off|status]** - *Toggles synchronisation of Sub-months data with Twitchs API. Having this turned on can avoid async sub data between Twitchs database and the bot's database. Having this turned off (not recommended) the bot won't sync data with Twitch, but rather just increase the stored value by 1 upon a resub event. Default is "on". Note, that a users sub data is only synchronised on their RESUB or SUBGIFT event, not a normal sub event, due to limitations of the bots system.*  
+**!apisync [on|off|status]** - *Toggles synchronisation of Sub-months data with Twitchs API. Having this turned on can avoid async sub data between Twitchs database and the bot's database. Having this turned off (not recommended) the bot won't sync data with Twitch, but rather just increase the stored value by 1 upon a resub event. Default is "on". **Note, that a users sub data is only synchronised on their RESUB or SUBGIFT event, not a normal sub event, due to limitations of the bots system. Further info in the installation section down below**.*   
   
 
 *Note, that the bot can only use emotes, that are available on the bot's account. (Global emotes and emotes from channels the bot's account is subscribed to)  
@@ -55,4 +57,6 @@ Fixed an issue, where the apisync toggle wouldn't work if the user wasn't alread
   
 That's it, it's as easy as that! On the first startup the extension will automatically create all needed databases. The rest can be configured using the commands listed above.  
   
-**Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub or subgift after installation, according to the cumulative months data that Twitch provides** (assuming !APIsync is turned on, which it is by default). **If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences between Twitchs Database and the Bots database.) So maybe wait a bit before making the chat command available for everyone**
+❗ **Note: Due to limitations of the sub month query, the months of a sub will be counted on their first resub or subgift after installation, according to the cumulative months data that Twitch provides.** (assuming !APIsync is turned on, which it is by default). **This will change as soon as Phantombot's Twitch API integration is fully updated for the new sub system.**   
+  
+❕ **If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setlevel command. (Not recommended, as this could lead to differences between Twitchs Database and the Bots database.) So maybe wait a bit before making the chat command available for everyone**

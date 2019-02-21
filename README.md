@@ -48,7 +48,8 @@ Fixed an issue, where the apisync toggle wouldn't work if the user wasn't alread
 --------------  
   
 ## 💾 INSTALLATION and UPDATING  
-  
+    
+- Make sure you have the Phantombot Nightly build from 4. February 2019 or a later version pf Phantombot!  
 - Download latest release from the "Releases" section: https://github.com/aKuhTV/PB-SubscriberLevels/releases  
 - Place the *SubscriberLevels_0.x.js* inside *[Your Phantombot Folder]\scripts\custom*. If that folder doesn't exist, create it.  
 - Place the *custom-SubscriberLevels_0.x.js* inside *[Your Phantombot Folder]\scripts\lang\english (or whatever language your bot is set to)\custom*. If that folder doesn't exist, create it.  

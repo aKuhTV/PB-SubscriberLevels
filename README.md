@@ -1,4 +1,4 @@
-# (16. July 2019) I‘m in the process of rewriting this script from the ground up for a much cleaner and a more user-friendly implementation of subscriber levels/ranks. Please check back in a few days.
+# (16. July 2019) **I‘m in the process of rewriting this script from the ground up for a much cleaner and a more user-friendly implementation of subscriber levels/ranks. Please check back in a few days.**
 
 
 

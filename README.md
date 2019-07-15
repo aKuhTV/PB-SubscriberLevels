@@ -1,3 +1,9 @@
+# (16. July 2019) I‘m in the process of rewriting this script from the ground up for a much cleaner and a more user-friendly implementation of subscriber levels/ranks. Please check back in a few days.
+
+
+
+
+
 # ⭐ PB-SubscriberLevels ⭐
 
 The SubscriberLevel Module is a highly customizable extension for Phantombot, that lets you set Levels, similar to Ranks, but based on the *total* amount of months a viewer has been subscribed to your channel. (Not the months in a row! This extension is built with Twitchs new sub system in mind.)

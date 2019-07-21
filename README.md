@@ -1,9 +1,3 @@
-# (16. July 2019) **I‘m in the process of rewriting this script from the ground up for a much cleaner and a more user-friendly implementation of subscriber levels/ranks. Please check back in a few days.**
-
-
-
-
-
 # ⭐ PB-SubRanks ⭐
 
 The SubRanks Module is a highly customizable extension for Phantombot, that lets you set Ranks based on the *total* amount of months a viewer has been subscribed to your channel. (This extension is built with Twitchs new sub system in mind.)
@@ -59,24 +53,13 @@ This uses part of the existing ranks system of Phantombot. Existing Custom Ranks
 0.3.2  
 0.3.3 - Added support for syncing cumulative months with Twitchs database on Sub-Gift events.~~  
   
-1.0 - Complete rewrite of the module. It's a lot cleaner, more reliable and easier to use now. Rank names and user ranks can now both be set through Phantombots Web Panel.  
+1.0-b1 - Complete rewrite of the module. It's a lot cleaner, more reliable and easier to use now. Rank names and user ranks can now both be set through Phantombots Web Panel.  
   
 (Don't use versions before 1.0! The module has been rewritten from the ground up.)  
   
 --------------  
   
-## 💾 INSTALLATION and UPDATING  
+## 💾 INSTALLATION | SETUP | UPDATING  
     
-- Make sure you use a Phantombot version that was released after May 18th 2019! (currently only nightly builds: https://github.com/PhantomBot/nightly-build/tree/master/historical)  
-- Download latest release from the "Releases" section: https://github.com/aKuhTV/PB-SubRanks/releases  
-- Place the *SubRanks.js* inside *[Your Phantombot Folder]\scripts\custom*. If that folder doesn't exist, create it.  
-- Place the *custom-SubRanks.js* inside *[Your Phantombot Folder]\scripts\lang\english (or whatever language your bot is set to)\custom*. If that folder doesn't exist, create it.  
+### For more Information and Tutorials visit the SubRanks Wiki [HERE](https://github.com/aKuhTV/PB-SubRanks/wiki/).
   
-**If you are UPDATING SubRanks from an older version, ONLY replace the *SubRanks.js* with the new one! DO NOT overwite *custom-SubRanks.js*, since it contains all your custom level names!** Any other userdata, like sub ranks, is stored in the phantombot.db database.  
-**If you are updating PHANTOMBOT, don't forget to copy the *SubRanks.js* and *custom-SubRanks.js* over to the new Phantombot.**  
-  
-That's it for installation. For customization and setting your own level names visit the wiki:  
-  
-❗ **Note: Due to limitations of the sub month query, the sub months of a viewer will be counted on their first sub, resub or subgift after installation, according to the cumulative months data that Twitch provides.**     
-  
-❕ **If you want to have the full funcionality availabe directly after installation, you need to manually set the number of months using the !setsubrank command. If you use Tipeeestream, they provide a pretty useful Sub-Month Leaderboard on their dashboard, which gives you the age of at least the Top 100 Subs.**

@@ -19,7 +19,12 @@ This uses part of the existing ranks system of Phantombot. Existing Custom Ranks
 
 For everyone:  
 **!subage** - *Lets a user check their current total Sub duration. Available options: !subage [username]*  
+  
+![](https://i.imgur.com/5aA600I.jpg)  
+  
 **!level** - *Lets a user check their current total Sub duration and also the custom Sub-Rank name.  Can be changed to a custom command using an alias in Phantombot. Available options: !level [username]*  
+  
+![](https://i.imgur.com/X41DBEk.jpg)  
   
 For Mods:  
 **!subnamechange [old name] [new name]** - *Lets a Mod or higher transfer a users rank data to a new username after a name change. This will NOT be done automatically when using the regular !namechange command.*  

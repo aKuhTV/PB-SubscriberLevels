@@ -17,7 +17,8 @@ This uses part of the existing ranks system of Phantombot. Existing Custom Ranks
   
 ## ❕ COMMANDS
 
-For everyone:  
+### For everyone:  
+  
 **!subage** - *Lets a user check their current total Sub duration. Available options: !subage [username]*  
   
 ![](https://i.imgur.com/5aA600I.jpg)  
@@ -26,14 +27,23 @@ For everyone:
   
 ![](https://i.imgur.com/X41DBEk.jpg)  
   
-For Mods:  
-**!subnamechange [old name] [new name]** - *Lets a Mod or higher transfer a users rank data to a new username after a name change. This will NOT be done automatically when using the regular !namechange command.*  
-**!setsubrank [name] [n]** - *Sets the Rank/amount of subbed months to given number "n". You may use this for initial setup. The sub month data will be updated automatically on a resub event.*  
+### For Mods:  
   
-For Caster and Admin:  
+**!subnamechange [old name] [new name]** - *Lets a Mod or higher transfer a users rank data to a new username after a name change. This will NOT be done automatically when using the regular !namechange command.*  
+**!setsublevel [name] [n]** - *Sets the Rank/amount of subbed months to given number "n". You may use this for initial setup. The sub month data will be updated automatically on a resub event.*  
+**!removesublevel [name]** - *Removes all sub data of a user. You may use this when a typo happended when using !setsublevel. Be careful, this can't be undone.*  
+  
+![](https://i.imgur.com/Q7fmCuj.jpg)  
+  
+### For Caster and Admin:  
+  
 **!levelname [n]** - *Responds with the set name for the given level "n".*  
   
-Planned for future release:  
+![](https://i.imgur.com/c6ls5eR.jpg)  
+  
+  
+### Planned for future release:  
+  
 **!revert** - *This will revert the ranks data to the standard custom ranks, that were backed up on setup. BE CAREFUL, THIS WILL OVERWRITE THE SUB RANKS. ONLY USE THIS IF YOU UNINSTALL THE EXTENSION AFTERWARDS! A backup of your sub ranks data will be created.*  
 **!restore** - *This will restore the sub ranks data after using the !revert command. The standard custom ranks will be overwritten. A backup of your standard custom ranks data will be created.*  
   

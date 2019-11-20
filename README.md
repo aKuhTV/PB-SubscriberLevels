@@ -5,7 +5,7 @@ You can either use this extension just as some kind of sub-age command, similar 
   
 This uses part of the existing ranks system of Phantombot. Existing Custom Ranks will be backed up and replaced by Sub Ranks, but can still be used on a per-user basis. (See Wiki page "Commands" and "Setup & Customization") Plus you can use the (rank) tag in standard commands, like !points, and it will give you the sub rank.  
   
-*If you have further questions, feel free to contact me on Twitter @aKuhTV. If you should encounter any issues, please report them in the Issues tab here on Github.*  
+*If you have further questions, feel free to contact me. If you should encounter any issues, please report them in the Issues tab here on Github.*  
   
     
 ### For more Information and Tutorials visit the SubRanks Wiki [HERE](https://github.com/aKuhTV/PB-SubRanks/wiki/).
